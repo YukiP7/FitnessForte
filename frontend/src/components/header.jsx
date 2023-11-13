@@ -8,7 +8,8 @@ export default function Header(){
         <nav className="bg-black border-gray-200 px-4 lg:px-6 py-2.5 text-white ">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl m-4">
         <Link to="/" className="flex items-center gap-2 text-lg ">
-        <FontAwesomeIcon icon={faDumbbell} size="xl" />
+        <img src='https://thumbs.dreamstime.com/z/bodybuilding-powerlifting-kettlebell-workout-fitness-logo-template-gym-club-logotype-bodybuilder-sportsman-model-illustration-sign-123514457.jpg' alt='fitness'
+        className='h-10'/>
         <p>WORKOUT</p>
         </Link>
 <div className="flex items-center lg:order-2">
