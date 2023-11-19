@@ -5,7 +5,7 @@ import { faCircleChevronRight} from "@fortawesome/free-solid-svg-icons"
 
 export default function Home(){
     return(
-    <div className="  bg-gradient-to-br from-blue-300 to-pink-200 p-20">
+    <div className="  bg-gradient-to-tl from-red-200 to-blue-200 p-20">
         <div className="flex">
         <div className="m-5 ml-0">
             <div className=" w-1/2 h-16 bg-blue-100 rounded-3xl flex justify-center items-center hover:bg-slate-300  hover:animate-bounce delay-150" >

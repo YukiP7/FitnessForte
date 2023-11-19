@@ -10,16 +10,16 @@ export default function Header(){
         className='h-10'/>
         <p>WORKOUT</p>
         </Link>
-        <div className="flex items-center lg:order-2">
+        <div className="flex items-center lg:order-2 mr-0">
         <Link
-            to="#"
-            className="text-black hover:bg-blue-700 hover:text-white focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none "
+            to="/login"
+            className="text-black hover:bg-blue-600 hover:text-white focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none "
         >
             LOG IN
         </Link>
         <Link
-            to="#"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none border-b-4 border-l-4 border-black border-2 hover:border-none"
+            to="/"
+            className="text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none border-b-4 border-l-4 border-black border-2 hover:border-none"
         >
             GET STARTED
         </Link>
@@ -30,7 +30,7 @@ export default function Header(){
         </div>
         </div>
         <div
-        className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+        className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1 ml-16"
         id="mobile-menu-2"
         >
         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
@@ -59,6 +59,15 @@ export default function Header(){
                     }
                 >
                     PROGRAMS
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/"
+                    className={({isActive}) =>
+                        `block py-2 pr-4 pl-3 duration-200 ${isActive ? "text-blue-700" : "text-gray-700"} border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-blue-700 lg:p-0`
+                    }
+                >
+                    PRICING
                 </NavLink>
             </li>
             <li>
