@@ -5,7 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/app.js"
+    "start": "nodemon -r dotenv/config --experimental-json-modules src/app.js"
   },
   "author": "Yukti garg",
   "license": "ISC",
