@@ -7,6 +7,7 @@ import Home from './components/home.jsx'
 import Program from './components/programs.jsx'
 import Login from './components/signupOrLogin/login.jsx'
 import SignUp from './components/signupOrLogin/signup.jsx'
+import Workout from './components/workouts.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route path='/programs' element={<Program/>}/>
       <Route path='/login' element= {<Login/>}/>
       <Route path='/signup' element= {<SignUp/>}/>
+      <Route path='/workouts' element= {<Workout/>}/>
     </Route>
   )
 )
