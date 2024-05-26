@@ -1,6 +1,4 @@
 import express from "express" 
-// import FontAwesome from "@fortawesome/react-fontawesome"
-// import {faDumbell , faPersonRunning , faFireFlameCurved , faHeartPulse} from "react-icons"
 
 const app = express() ;
 const port = 3000 ;
@@ -8,25 +6,21 @@ const port = 3000 ;
 const prog = [
     {
         id: 1 ,
-        // icon: <FontAwesome icon = {faDumbell} size='2xl' /> ,
         title: "Strength Training",
         description: "In this program, you are trained to improve your strength through many exercises."
     },
     {
         id: 2 ,
-        // icon: <FontAwesome icon = {faPersonRunning} size='2xl' />  ,
         title: "Cardio Training" ,
         description: "In this program, you are trained to do sequential moves in range of 20 until 30 minutes."
     },
     {
         id: 3 ,
-        // icon: <FontAwesome icon = {faFireFlameCurved} size='2xl' />,
         title: "Fat Burning" ,
         description: "This  program  is  suitable  for  you who wants to get rid of your fat and lose their weight." 
     },
     {
         id: 4 ,
-        // icon: <FontAwesome icon = {faHeartPulse} size='2xl' />,
         title: "Health Fitness" ,
         description: "This programs is designed for those who exercises only for their body fitness not body building."
     }

@@ -4,6 +4,14 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faCircleChevronRight} from "@fortawesome/free-solid-svg-icons"
 
 export default function Home(){
+
+    // const trainers = (n) => {
+    //     setInterval((n) => {
+    //        console.log(n) ;
+    //        n++ ; 
+    //     }, 1000);
+    // }
+    
     return(
     <div className="  bg-gradient-to-tl from-red-200 to-blue-200 p-20">
         <div className="flex">
