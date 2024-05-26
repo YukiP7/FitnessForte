@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import axios from "axios" ;
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faRightLong} from "@fortawesome/free-solid-svg-icons"
 
  function Workout(){
     const [workouts , setWorkouts] = useState([]) 
