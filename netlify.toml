@@ -3,7 +3,7 @@
   publish = "frontend/dist"
 
 [functions]
-  directory = "src/index.js"
+  directory = "functions"
 
 [[redirects]]
   from = "/*"

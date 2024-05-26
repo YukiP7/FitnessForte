@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "fitnessForte backend part",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon -r dotenv/config --experimental-json-modules src/app.js"
