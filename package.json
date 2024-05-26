@@ -6,7 +6,7 @@
     "build": "cd frontend && npm install && npm run build",
     "start:frontend": "cd frontend && npm run dev",
     "start:backened": "cd backened && npm run dev",
-    "start": "concurrently\"cd ..\" \"npm run start:frontend\" \"npm run start:backened\""
+    "start": "concurrently \"cd..\" \"npm run start:frontend\" \"npm run start:backened\""
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
